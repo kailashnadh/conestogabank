@@ -1,0 +1,695 @@
+#bodyindex{
+    background-image: url(../images/hd-background.jpg);
+    background-size: auto;
+    
+    font-family: calibri;
+    background-repeat: no-repeat;
+}
+
+
+body{
+    background-image:url(../images/hd-background.jpg);
+    background-size:cover;
+    font-family: calibri;
+    
+}
+
+#bodymain{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#enter{
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.enter1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: center;
+}
+#th{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    font-size: 60px;
+    color:white;
+    font-family: Book Antiqua;
+}
+
+#conestoga{
+    display: flex;
+    flex-direction: row;
+    font-size: 80px;
+    color:red;
+    font-family: Book Antiqua;
+}
+
+.ared{
+   color:red; 
+}
+
+.awhite{
+    color:white;
+}
+
+#bank{
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    color:white;
+    font-family: Book Antiqua;
+}
+
+#quote{
+    color:white;
+}
+
+#enter a{
+    text-decoration: none;
+}
+
+#bankingbtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:rgba(255,0,0,0.4);
+    border: none;
+    color:white;
+    width:50%;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 43px;
+    cursor: pointer;
+}
+
+
+#bankingbtn:hover{
+    background-color:green;
+}
+
+#terms{
+    font-size: 15px;
+    color:white;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+header{
+    text-align: center;
+    font-family: Book Antiqua;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav{
+    font-family: calibri; 
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-left: 2px solid gold;
+    border-right:2px solid gold;
+}
+
+nav li a:hover {
+    background-color: white;
+    color:rgba(25, 83, 159, 1);
+}
+
+dd ul{
+        display: block;
+        
+    }
+
+h2{
+    display: block;
+    
+    color:white;
+    font-size: 60px;
+}
+
+main p{
+    color:white;
+    font-size: 25px;
+}
+
+#contact{
+    border:none;
+    margin-bottom: 15px;
+    margin-left: 0%;
+    color:white;
+    background-color: red;
+    padding:12px;
+    border-radius: 5px;
+    font-size: 15px;
+    width:200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+#savings,#business,#why{
+    display: flex;
+    flex-wrap: row wrap;
+    border:1px solid white;
+    width:250px;
+    padding: 55px;
+    margin: 15px;
+}
+
+.divsave{
+    color:white;
+    font-size: 30px;
+}
+
+.divpara{
+    color:white;
+    font-size: 15px;
+}
+
+.divbtn{
+    border:none;
+    color:white;
+    background-color: red;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width:100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#socialfoot{
+    color:white;
+    font-size: 40px;
+}
+
+.socialicon{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+#mobile{
+    display: none;
+}
+
+
+
+#contactfoot1 td a:hover, #contactfoot td a:hover{
+    background-color: white;
+    color:rgba(25, 83, 159, 1);
+}
+
+
+#contactfoot1 td a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding:15px;
+}
+
+#contactfoot1 td {
+
+    padding: 15px;
+}
+
+
+#contactform{
+    color: white;
+    padding:15px;
+}
+
+
+
+#contactform3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    justify-content: center;
+    color: white;
+    padding:15px;
+    border: 1px solid white;
+}
+
+
+#contactform td{
+    padding: 10px;
+
+}
+
+
+
+
+#captioncontact{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+
+
+.textbox{
+    display: flex;
+    flex-wrap: wrap;
+    border:none;
+    width:250px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.commentbox{
+    display: flex;
+    flex-wrap: wrap;
+    border:none;
+    width:245px;
+    border-radius: 5px;
+}
+
+
+#submit{
+    border:none;
+    color:white;
+    background-color: red;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width:100%;
+    text-align: center;
+    height:35px;
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: rgba(229,0,0,1);
+}
+
+#mainsavings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:row wrap;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+dt{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+dl{
+    color:white;
+    font-size: 20px;
+}
+
+#cc th,#cc td,#cc tr,#cc1 th,#cc1 td,#cc1 tr{
+    border:1px solid white;
+    padding: 10px;
+    color:white;
+    
+}
+
+#cc td,#cc tr, #cc1 td,#cc1 tr{
+    border-collapse: collapse;
+}
+
+#cc td:hover, #cc1 td:hover{
+    background-color: rgba(255,255,255,0.4);
+}
+
+footer p{
+    color:white;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    header,ul{
+        display: flex;
+    }
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    ul{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    header,ul,nav,nav a{
+        display: flex;
+    }
+    
+    
+    ul{
+        flex-direction: row;
+        border: none;
+    }
+    
+    
+    nav li a{
+        display: flex;
+        justify-content: center;
+        border: none;
+        
+    }
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h2{
+        display: block;
+        margin-top:15px;
+        color:white;
+        font-size: 35px;
+    }
+    
+    #mainsavings{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom:5px;
+        align-items: center;
+
+    }
+    
+    #savings1,#savings2,#savings3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    
+    #contactfoot1 td a, #contactfoot td a, #socialfoot a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #contactfoot1 td, #contactfoot td {
+        border:1px solid white;
+        padding: 0px;
+        flex-direction: row;
+        
+    }
+    
+    #contactfoot1, #contactfoot, #socialfoot {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #socialfoot{ 
+    font-size: 25px;
+    }
+
+    #follow{
+        display: none;
+    }
+    .socialicon{
+        height:35px;
+        width:35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer p{
+        display: flex;
+        justify-content: center;
+    }
+
+    #contactform3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: row wrap;
+        padding: 0px;
+    }
+    
+    
+    #captioncontact{
+        margin-left: 0px;
+        display: flex;
+        justify-content:center;
+        font-size: 35px;
+    }
+    
+    #contactform td {
+        display: flex;
+        flex-direction: row;
+        flex-flow:row wrap;
+    }
+    
+    #contactform tr{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column wrap;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    #mobile{display: inline;}
+    #desktop{display: none;}
+    
+    header,ul{
+        display: flex;
+    }
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav ul{
+        flex-direction: column;
+    }
+    
+    .nav ul li{
+        padding: 15px;
+    }
+
+    
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    ul{
+        flex-direction: row;
+        border: none;
+    }
+    
+    
+    h2{
+        display: block;
+        margin-top:15px;
+        color:white;
+        font-size: 35px;
+    }
+    
+    #mainsavings{
+        display: flex;
+        flex-direction: column;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-bottom:5px;
+        align-items: center;
+
+    }
+    
+    #savings1,#savings2,#savings3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #contactfoot1 td a, #contactfoot td a, #socialfoot a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #contactfoot1 td, #contactfoot td {
+        border:1px solid white;
+        padding: 0px;
+        flex-direction: row;
+        
+    }
+    
+    #contactfoot1, #contactfoot, #socialfoot {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #socialfoot{ 
+    font-size: 25px;
+    }
+
+    #follow{
+        display: none;
+    }
+    .socialicon{
+        height:35px;
+        width:35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer p{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    h2{
+        display: flex;
+        justify-content:center;
+        font-size: 35px;
+    }
+    
+    
+
+    #contactform3{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        flex-direction: row wrap;
+        padding: 0px;
+    }
+    
+    
+    
+    #captioncontact{
+        margin-left: 0px;
+        display: flex;
+        justify-content:center;
+        font-size: 35px;
+    }
+    
+    #contactform td {
+        display: flex;
+        flex-direction: row;
+        flex-flow:row wrap;
+        flex-grow: 1;
+    }
+    
+   
+    
+    #cc thead, #cc tbody, #cc th, #cc td, #cc tr{
+        display: block;
+    }
+    
+    #cc thead tr{
+        position: absolute;
+        top:-9999px;
+        left:-9999px;
+    }
+    
+    #cc tr{border:1px solid white;}
+    
+    #cc td{
+        border:none;
+        border-bottom: 1px solid white;
+        position: relative;
+        padding-left: 50%;
+    }
+    
+
+    #cc td:before{
+        position: absolute;
+        top:6px;
+        left:6px;
+        width:45%;
+        padding-left:10px;
+        white-space: nowrap;
+    }
+    
+    
+    #cc td:nth-of-type(1):before {content: "Card Name";}
+    #cc td:nth-of-type(2):before {content: "Joining/Annual Fees";}
+    #cc td:nth-of-type(3):before {content: "Bonus Rewards";}
+    #cc td:nth-of-type(4):before {content: "Net Savings";}
+    #cc td:nth-of-type(5):before {content: "More Details";}
+    
+    #cc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #para{
+        display: flex;
+        justify-content: center;
+    }
+    
+ 
+    .textbox{
+        align-items: stretch;
+        width:150px;
+    }
+    
+    .commentbox{
+        flex-shrink: 10px;
+        width: 150px;
+    }
+    
+    
+    
+}
